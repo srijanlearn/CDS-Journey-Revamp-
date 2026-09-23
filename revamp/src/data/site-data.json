@@ -1,0 +1,387 @@
+{
+ "scrapedAt": "2026-09-23T12:21:02.722Z",
+ "brand": "CDS Journey",
+ "baseUrl": "https://www.cdsjourney.com/",
+ "contact": {
+  "address": "5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)",
+  "email": "support@cdsjourney.com",
+  "phone": "+91 9198151228"
+ },
+ "socials": {
+  "instagram": "https://www.instagram.com/cds.journey",
+  "youtube": "https://youtube.com/@cdsjourney",
+  "x": "https://x.com/cdsjourney_"
+ },
+ "nav": [
+  "Live Batches",
+  "Time Bound Test",
+  "Mock Test (CDS/NDA/AFCAT/CAPF/Live Test)",
+  "Study Material",
+  "Current Affairs",
+  "Cart",
+  "Signup/Login"
+ ],
+ "hero": {
+  "banner": "assets/images/cdn.cdsjourney.com/Frame_211_8055kYy-bebc332dba.webp",
+  "headline": "All Mock Tests, Notes, Magazines are Free!"
+ },
+ "courses": [
+  {
+   "slug": "course-kilo-ota",
+   "title": "KILO OTA BATCH (CDS-1 2027)",
+   "url": "https://www.cdsjourney.com/course-detail/kilo-ota-batch-cds-1-2027/",
+   "price": null,
+   "language": "Hinglish",
+   "contact": {
+    "phone": "+91 9198151228",
+    "email": "support@cdsjourney.com"
+   },
+   "headings": {
+    "h3": [
+     "KILO OTA BATCH (CDS-1 2027)"
+    ]
+   },
+   "instructors": [
+    "Anurag Tripathi",
+    "Pooja Budania",
+    "Ashish Garg"
+   ],
+   "avatars": [
+    "assets/images/courses/anurag_bhaiya.jpg",
+    "assets/images/courses/ashish_sir.jpg",
+    "assets/images/courses/pooja_maam_UKItbrn.jpg"
+   ],
+   "banner": "assets/images/cdn.cdsjourney.com/CDS_OTA_3_gvfwpCr-9859994a9c.webp",
+   "overviewImage": "assets/images/courses/CDS OTA_GKMHHPH.png",
+   "subjectImages": [],
+   "overviewText": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nHome\nCourse Details\nKILO OTA BATCH (CDS-1 2027)\nOverview\nSubjects\nInstructor\n\nComing Soon\nLanguage:\nHinglish\nContact No:\n+91 9198151228\nContact Mail:\nsupport@cdsjourney.com\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  {
+   "slug": "course-india-capf12",
+   "title": "INDIA BATCH (PAPER 1+ PAPER 2) CAPF 2027",
+   "url": "https://www.cdsjourney.com/course-detail/india-batch-p1-p2-capf-2027/",
+   "price": "₹ 7999",
+   "language": "Hinglish",
+   "contact": {
+    "phone": "+91 9198151228",
+    "email": "support@cdsjourney.com"
+   },
+   "headings": {
+    "h3": [
+     "INDIA BATCH (PAPER 1+ PAPER 2) CAPF 2027"
+    ]
+   },
+   "instructors": [
+    "Anurag Tripathi",
+    "Pooja Budania",
+    "Ashish Garg"
+   ],
+   "avatars": [
+    "assets/images/courses/anurag_bhaiya.jpg",
+    "assets/images/courses/ashish_sir.jpg",
+    "assets/images/courses/sandeep_sir.jpg",
+    "assets/images/courses/pooja_maam_UKItbrn.jpg"
+   ],
+   "banner": "assets/images/cdn.cdsjourney.com/Capf_paper_12-28be03ea21.webp",
+   "overviewImage": "assets/images/courses/paper 1+2_ymY0qHq.png",
+   "subjectImages": [
+    "assets/images/courses/Mentor_Session.webp",
+    "assets/images/courses/1000836410.webp"
+   ],
+   "overviewText": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nHome\nCourse Details\nINDIA BATCH (PAPER 1+ PAPER 2) CAPF 2027\nOverview\nSubjects\nInstructor\n\n₹ 7999\nAdd To Cart Now\nLanguage:\nHinglish\nContact No:\n+91 9198151228\nContact Mail:\nsupport@cdsjourney.com\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  {
+   "slug": "course-lima-nda",
+   "title": "LIMA BATCH (NDA-1 2027)",
+   "url": "https://www.cdsjourney.com/course-detail/lima-batch-nda-1-2027/",
+   "price": "₹ 3299",
+   "language": "Hinglish",
+   "contact": {
+    "phone": "+91 9198151228",
+    "email": "support@cdsjourney.com"
+   },
+   "headings": {
+    "h3": [
+     "LIMA BATCH (NDA-1 2027)"
+    ]
+   },
+   "instructors": [
+    "Anurag Tripathi",
+    "Pooja Budania",
+    "Ujjwal Tiwari",
+    "Ashish Garg",
+    "Muskan Chahal"
+   ],
+   "avatars": [
+    "assets/images/courses/anurag_bhaiya.jpg",
+    "assets/images/courses/pooja_maam_UKItbrn.jpg",
+    "assets/images/courses/ashish_sir.jpg"
+   ],
+   "banner": "assets/images/cdn.cdsjourney.com/NDA_UZyhLCp-93fd8c598b.webp",
+   "overviewImage": "assets/images/courses/NDA overview.png",
+   "subjectImages": [],
+   "overviewText": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nHome\nCourse Details\nLIMA BATCH (NDA-1 2027)\nOverview\nSubjects\nInstructor\n\n₹ 3299\nAdd To Cart Now\nLanguage:\nHinglish\nContact No:\n+91 9198151228\nContact Mail:\nsupport@cdsjourney.com\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  {
+   "slug": "course-india-capf2",
+   "title": "INDIA BATCH (PAPER 2) CAPF 2027",
+   "url": "https://www.cdsjourney.com/course-detail/india-batch-paper-2-capf-2027/",
+   "price": "₹ 4999",
+   "language": "Hinglish",
+   "contact": {
+    "phone": "+91 9198151228",
+    "email": "support@cdsjourney.com"
+   },
+   "headings": {
+    "h3": [
+     "INDIA BATCH (PAPER 2) CAPF 2027"
+    ]
+   },
+   "instructors": [
+    "Anurag Tripathi",
+    "Pooja Budania"
+   ],
+   "avatars": [
+    "assets/images/courses/pooja_maam_UKItbrn.jpg",
+    "assets/images/courses/anurag_bhaiya.jpg"
+   ],
+   "banner": "assets/images/cdn.cdsjourney.com/CAPF_paper_2-51978ba803.webp",
+   "overviewImage": "assets/images/courses/Paper 2 (1)_TSIf0JR.png",
+   "subjectImages": [
+    "assets/images/courses/Mentor_Session.webp",
+    "assets/images/courses/1000836410.webp"
+   ],
+   "overviewText": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nHome\nCourse Details\nINDIA BATCH (PAPER 2) CAPF 2027\nOverview\nSubjects\nInstructor\n\n₹ 4999\nAdd To Cart Now\nLanguage:\nHinglish\nContact No:\n+91 9198151228\nContact Mail:\nsupport@cdsjourney.com\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  {
+   "slug": "course-kilo-math",
+   "title": "KILO MATH BATCH (CDS-1 2027)",
+   "url": "https://www.cdsjourney.com/course-detail/kilo-math-batch-cds-1-2027/",
+   "price": "₹ 1499",
+   "language": "Hinglish",
+   "contact": {
+    "phone": "+91 9198151228",
+    "email": "support@cdsjourney.com"
+   },
+   "headings": {
+    "h3": [
+     "KILO MATH BATCH (CDS-1 2027)"
+    ]
+   },
+   "instructors": [
+    "Sandeep Brar"
+   ],
+   "avatars": [
+    "assets/images/courses/sandeep_sir.jpg"
+   ],
+   "banner": "assets/images/cdn.cdsjourney.com/CDS_maths_button-f97dab75f6.webp",
+   "overviewImage": "assets/images/courses/CDS Maths 2_WxNmDpR.png",
+   "subjectImages": [],
+   "overviewText": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nHome\nCourse Details\nKILO MATH BATCH (CDS-1 2027)\nOverview\nSubjects\nInstructor\n\n₹ 1499\nAdd To Cart Now\nLanguage:\nHinglish\nContact No:\n+91 9198151228\nContact Mail:\nsupport@cdsjourney.com\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  {
+   "slug": "course-juliet-afcat",
+   "title": "JULIET BATCH (AFCAT 1 2027)",
+   "url": "https://www.cdsjourney.com/course-detail/juliet-batch-afcat-1-2027/",
+   "price": "₹ 2540",
+   "language": "Hinglish",
+   "contact": {
+    "phone": "+91 9198151228",
+    "email": "support@cdsjourney.com"
+   },
+   "headings": {
+    "h3": [
+     "JULIET BATCH (AFCAT 1 2027)"
+    ]
+   },
+   "instructors": [
+    "Anurag Tripathi",
+    "Pooja Budania"
+   ],
+   "avatars": [
+    "assets/images/courses/anurag_bhaiya.jpg",
+    "assets/images/courses/sandeep_sir.jpg",
+    "assets/images/courses/pooja_maam_UKItbrn.jpg"
+   ],
+   "banner": "assets/images/cdn.cdsjourney.com/AFCAT_Button-7dcf3cd5b8.webp",
+   "overviewImage": "assets/images/courses/AFCAT Curri.png",
+   "subjectImages": [
+    "assets/images/courses/1000189411.webp",
+    "assets/images/courses/English_Grammar_DAnKcta.webp",
+    "assets/images/courses/maths.webp",
+    "assets/images/courses/math_sheet.webp",
+    "assets/images/courses/General_Awareness_1.webp",
+    "assets/images/courses/reasoning.webp",
+    "assets/images/courses/batcheet.webp"
+   ],
+   "overviewText": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nHome\nCourse Details\nJULIET BATCH (AFCAT 1 2027)\nOverview\nSubjects\nInstructor\n\n₹ 2540\nAdd To Cart Now\nLanguage:\nHinglish\nContact No:\n+91 9198151228\nContact Mail:\nsupport@cdsjourney.com\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  {
+   "slug": "course-ssb-psych",
+   "title": "SSB PSYCH BATCH",
+   "url": "https://www.cdsjourney.com/course-detail/ssb-psych-batch/",
+   "price": "₹ 1",
+   "language": "Hinglish",
+   "contact": {
+    "phone": "+91 9198151228",
+    "email": "support@cdsjourney.com"
+   },
+   "headings": {
+    "h3": [
+     "SSB PSYCH BATCH"
+    ]
+   },
+   "instructors": [],
+   "avatars": [],
+   "banner": "assets/images/cdn.cdsjourney.com/SSB_Batch_2-fd9e5ac062.webp",
+   "overviewImage": null,
+   "subjectImages": [
+    "assets/images/courses/SSB_psy.webp"
+   ],
+   "overviewText": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nHome\nCourse Details\nSSB PSYCH BATCH\nOverview\nSubjects\n₹ 1\nAdd To Cart Now\nLanguage:\nHinglish\nContact No:\n+91 9198151228\nContact Mail:\nsupport@cdsjourney.com\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  }
+ ],
+ "tests": [
+  {
+   "slug": "test-cds",
+   "title": "Attempt CDS FREE Online Mock Test Series",
+   "url": "https://www.cdsjourney.com/test-series/19/cds-mock-test/",
+   "h1": [
+    "CDS"
+   ],
+   "body": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nCDS\nCONTENT:\nFULL TEST\nSHORT QUIZ\nMATH\n\nFree\n24 hours accessible Tests\nExam-Based pattern\nAccess on mobile and Desktop\nMultiple section wise tests\nEnroll Now\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  {
+   "slug": "test-nda",
+   "title": "Attempt NDA FREE Online Mock Test Series",
+   "url": "https://www.cdsjourney.com/test-series/3/nda/",
+   "h1": [
+    "NDA"
+   ],
+   "body": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nNDA\nCONTENT:\nFULL TEST\nSHORT QUIZ\nMATH\n\nFree\n24 hours accessible Tests\nExam-Based pattern\nAccess on mobile and Desktop\nMultiple section wise tests\nEnroll Now\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  {
+   "slug": "test-afcat",
+   "title": "Attempt AFCAT FREE Online Mock Test Series",
+   "url": "https://www.cdsjourney.com/test-series/2/afcat/",
+   "h1": [
+    "AFCAT"
+   ],
+   "body": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nAFCAT\nCONTENT:\nFULL LENGTH TEST\nSHORT QUIZ\nAFCAT 2026 (II) MOCK TEST 5\nAttempt\n\n100 Q   +3.0,  -1.0 Marks 120.00 Mins One Time Retake Available\n\nAFCAT 2026 (II) MOCK TEST 4\nAttempt\n\n100 Q   +3.0,  -1.0 Marks 120.00 Mins One Time Retake Available\n\nAFCAT 2026 (II) MOCK TEST 3\nAttempt\n\n100 Q   +3.0,  -1.0 Marks 120.00 Mins One Time Retake Available\n\nAFCAT 2026 (I) PYQ\nAttempt\n\n100 Q   +3.0,  -1.0 Marks 120.00 Mins One Time Retake Available\n\nAFCAT 2026 (II) MOCK TEST-2\nAttempt\n\n100 Q   +3.0,  -1.0 Marks 120.00 Mins One Time Retake Available\n\nAFCAT 2026 (II) MOCK TEST-1\nAttempt\n\n100 Q   +3.0,  -1.0 Marks 120.00 Mins One Time Retake Available\n\nFree\n24 hours accessible Tests\nExam-Based pattern\nAccess on mobile and Desktop\nMultiple section wise tests\nEnroll Now\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  {
+   "slug": "test-capf",
+   "title": "Attempt CAPF FREE Online Mock Test Series",
+   "url": "https://www.cdsjourney.com/test-series/9/capf/",
+   "h1": [
+    "CAPF"
+   ],
+   "body": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nCAPF\nCONTENT:\nFULL MOCK TEST\nSHORT QUIZ\nDELTA BATCH MOCK TEST -1\nLocked\n\n100 Q   +2.0,  -0.6666666667 Marks 120.00 Mins One Time Retake Available\n\nFree\n24 hours accessible Tests\nExam-Based pattern\nAccess on mobile and Desktop\nMultiple section wise tests\nEnroll Now\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  }
+ ],
+ "quizTopics": {
+  "exams": [
+   "AFCAT",
+   "IB ACIO",
+   "NDA",
+   "CDS"
+  ],
+  "topics": [
+   "Mathematics",
+   "Reasoning",
+   "English",
+   "General Studies",
+   "Daily Practice Tests"
+  ]
+ },
+ "quizBody": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nAce your preparation with cds.journey\n\nसर नीचे और बस अपनी मेहनत\n\nAll Exams\nAFCAT\nIB ACIO\nNDA\nCDS\n\nAll\nDaily Practice Tests\nMathematics\nReasoning\nEnglish\nGeneral Studies\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey",
+ "liveTests": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\n\nFREE LIVE\n\nExam वाली Feel, Exam से पहले\nTo be available soon\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey",
+ "materials": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nAll Defence Exams Study Material\nSTUDY MATERIALS\n1.  HANDWRITTEN NOTES\n2.  CURRENT AFFAIRS\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey",
+ "currentAffairs": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nHome\nCurrent Affairs\nCurrent Affairs: Daily and Monthly\nTo be available soon\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey",
+ "testseries": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\n\nCompare yourself to who you were yesterday, not to who someone else is today.\n-Jordan Peterson\n\nAll\nDEFENCE EXAMS\n\nCDS\n\nLANGUAGE\nEnglish\nTotal Mock Test\n138\nView\nFree: Enroll\n\nNDA\n\nLANGUAGE\nEnglish\nTotal Mock Test\n94\nView\nFree: Enroll\n\nAFCAT\n\nLANGUAGE\nEnglish\nTotal Mock Test\n6\nView\nFree: Enroll\n\nCAPF\n\nLANGUAGE\nEnglish\nTotal Mock Test\n1\nView\nFree: Enroll\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey",
+ "testCounts": {
+  "CDS": 138,
+  "NDA": 94,
+  "AFCAT": 6,
+  "CAPF": 1
+ },
+ "company": {
+  "about": {
+   "url": "https://www.cdsjourney.com/about-us/",
+   "title": "cds.journey is India's most loved platform for Defence Exams",
+   "headings": [
+    "What We Do",
+    "What We Offer",
+    "Our Achievements",
+    "Our Motto",
+    "Our Key Offerings:",
+    "1. Live Batches",
+    "2. Test Series & Practice Mocks",
+    "Welcome",
+    "Verify Your Email"
+   ],
+   "body": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nWhat We Do\n\nCDS Journey is a premier coaching platform dedicated to preparing students for CDS, AFCAT, and NDA exams, along with SSB interview training. We provide high-quality content, structured learning, and expert mentorship to help aspirants achieve their dream of joining the Indian Armed Forces.\n\nOur Key Offerings:\nLive Interactive Classes – Learn from experienced faculty with real-time doubt-solving sessions.\nComprehensive Study Material – Access exam-focused notes, quizzes, and PDFs for efficient preparation.\nRegular Mock Tests & PYQ Analysis – Practice with exam-level questions and previous year papers to strengthen your understanding.\nSSB Guidance & Personality Development – Get expert-led training for screening, psychology, GTO, and personal interviews.\nYouTube Classes – We also provide free, high-quality educational content on YouTube, accessible to all.\nWhat We Offer\n1. Live Batches\n\nWe conduct structured batches for different exams:\n\nCDS (IMA & OTA) | AFCAT | NDA – 2025 Batches (Admissions Open Soon)\nSSB Guidance Batch – Get professional coaching for OIR, PPDT, and personal interview rounds.\n2. Test Series & Practice Mocks\n\nWe offer comprehensive mock tests designed to simulate the actual exam experience. Our test series cover CDS, AFCAT, and NDA, ensuring thorough practice with exam-level questions. Additionally, we provide SSB screening tests, including OIR & PPDT, to help candidates prepare effectively for the selection process.\n\nOur Achievements\n🔥 9 All India Rank (AIR) 1 in the last 3 years across different exams.\n🔥 Thousands of aspirants have cleared CDS, AFCAT, and NDA with our guidance.\n🔥 Hundreds of students have received recommendations from SSB and are now serving officers.\n\nWe are proud to have played a role in our students' success and remain committed to delivering excellence in defence exam preparation.\n\nOur Motto\n\n\"सर नीचे और बस अपनी मेहनत\"\n\n~ Anurag Tripathi (Founder)\n\nWe believe that discipline, consistency, and the right guidance are the key to success in defence exams.\n\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  "contact": {
+   "url": "https://www.cdsjourney.com/contact-us/",
+   "title": "cds.journey is India's most loved platform for Defence Exams",
+   "headings": [
+    "CONTACT US",
+    "Welcome",
+    "Verify Your Email"
+   ],
+   "body": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nCONTACT US\n📍\nAddress\n5/543, Sector 5, Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n📧\nEmail\nsupport@cdsjourney.com\n📞\nPhone / WhatsApp\n+91 9198151228\n🌐\nWebsite\nwww.cdsjourney.com\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  "faq": {
+   "url": "https://www.cdsjourney.com/faq/",
+   "title": "cds.journey is India's most loved platform for Defence Exams",
+   "headings": [
+    "FREQUENTLY ASKED QUESTIONS",
+    "Welcome",
+    "Verify Your Email"
+   ],
+   "body": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nFREQUENTLY ASKED QUESTIONS\n1. What makes CDS Journey different from other coaching platforms?\nWe focus on concept-based learning rather than rote memorization. Our structured classes, high-quality study material, and personalized mentorship ensure that students are exam-ready.\n2. Do you provide study material along with the classes?\nYes, we provide comprehensive PDFs, notes, and quizzes for each subject, along with recorded classes for revision.\n3. How can I enroll in a batch?\nYou can visit our website cdsjourney.com and go to the ‘Live Batches’ section to enroll in upcoming courses.\n4. How do I access class recordings?\nAll recorded classes are available inside the app. Simply log in with your registered ID to access the recordings anytime.\n5. How do I purchase a batch?\nSelect the batch you want to enroll in and add it to the cart.\nGo to the cart section and proceed to checkout.\nComplete the payment process to confirm your enrollment.\n6. Is there any free content available?\nYes! We provide a range of free resources to help aspirants:\nFree High-Quality YouTube Lectures – Covering all subjects with PYQ analysis.\nFree Digital Notes – Well-structured, exam-oriented study material.\nFree Mock Tests – Practice with exam-level questions for better preparation.\n7. How can I contact CDS Journey for queries?\n📧 Email: support@cdsjourney.com\n📞 Call/WhatsApp: +91 9198151228\n\nStill have questions? Contact us:\n\n📧 support@cdsjourney.com | 📞 +91 9198151228\n\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  "terms": {
+   "url": "https://www.cdsjourney.com/terms-conditions/",
+   "title": "cds.journey is India's most loved platform for Defence Exams",
+   "headings": [
+    "Terms & Conditions",
+    "Updates to this Policy",
+    "Contact Us",
+    "Welcome",
+    "Verify Your Email"
+   ],
+   "body": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nTerms & Conditions\n\nThis privacy policy applies to all Users who access the Platform and are therefore required to read and understand the Policy before submitting any Personal Information (defined hereinafter). This privacy policy governs your use of the application of 'CDS Journey', CDS Journey YouTube Channel, www.cdsjourney.com ('Website') and products, Website, and services managed by CDS Journey. By submitting Personal Information, you are consenting to the use and processing of such information in accordance with this Policy. Third-party websites may place their own cookies or other files on the Users' computer, collect data or solicit personal information from the Users, for which CDS Journey is not responsible or liable.\n\nCDS Journey encourages the User to read the privacy policies of each such website/application and the User understands that it is solely such a third party who is responsible to the User in this regard. CDS Journey has taken reasonable precautions as per applicable Indian law and implemented industry standards to treat Personal Information as confidential and to protect it from unauthorized access, improper use or disclosure, modification, and unlawful destruction or accidental loss of the Personal Information. We will not use or share your information with anyone except as described in this Privacy Policy. Each time you use our Service you are accepting the practices described in this Privacy Policy at that time.\n\nUpdates to this Policy\n\nWe occasionally update this Policy. When we do, we will also revise the “last modified” date at the beginning of the Policy. Your continued use of our Service after such changes will be subject to the then-current policy. We encourage you to periodically review this Policy to stay informed about how we collect, use, and disclose your information.\n\nContact Us\n\nIf you have any questions about this Privacy Policy, you can contact us:\n\nMobile no: +91 9198151228\nBy visiting this page on our Website/Application: www.cdsjourney.com\nBy emailing us at: support@cdsjourney.com\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  "privacy": {
+   "url": "https://www.cdsjourney.com/privacy-policy/",
+   "title": "cds.journey is India's most loved platform for Defence Exams",
+   "headings": [
+    "Privacy Policy",
+    "1. Personal Information that we collect",
+    "2. How we use Personal Information",
+    "3. When we share Personal Information",
+    "4. Your rights and choices",
+    "5. Access",
+    "6. Third-party services",
+    "7. How we protect your Personal Information",
+    "8. Duration for which your Information is Stored",
+    "9. Children’s privacy",
+    "10. Country Specific Additional Privacy Terms",
+    "11. Updates to this Privacy Policy"
+   ],
+   "body": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nPrivacy Policy\n\nWe value your love & respect. In order to honour that trust, CDS Journey adheres to ethical standards in gathering, using, and safeguarding any information you provide. CDS Journey is a leading edtech company in the field of Defence Exams, incorporated in India, for imparting learning. This privacy policy governs your use of the application ‘CDS Journey’, www.cdsjourney.com (‘Website’) and the other associated Platforms and services managed by the Company. Please read this privacy policy (‘Policy’) carefully before using the Application, Website, and services, along with the Terms of Use (‘ToU’) provided on the Application and the Website.\n\nGiven below is the privacy policy published in accordance with the provisions of the Information Technology Act, 2000 (\"IT ACT\"), Information Technology (Intermediary Guidelines) Rules,2011, Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011.\n\nIn addition to our Terms and conditions Service, CDS Journey respects your privacy and is committed to protecting it. This Privacy Policy (the “Policy”) explains the types of information collected by CDS Journey when you use the Platform (as defined in Terms and conditions) that references this Policy, how we collect, use, share and store such information collected and also explains the rationale for collection of such information, the privacy rights and choices you have regarding your information submitted to us when you use the Services. This Privacy Policy is intended to help you understand about how we gather, use, and share information about:\n\n1. Personal Information that we collect\n2. How we use Personal Information\n3. When we share Personal Information\n4. Your rights and choices\n5. Access\n6. Third-party services\n7. How we protect your Personal Information\n8. Duration for which your Information is Stored\n9. Children’s privacy\n10. Country Specific Additional Privacy Terms\n11. Updates to this Privacy Policy\n12. How to contact us\n\nThis Privacy Policy (this “Policy”) describes the information we collect about you when you use our products, services, or otherwise communicate with us. cdsjourney. (“cdsjourney,” “we,” or “us”) refers to cds journey and our affiliates. Our web services, mobile solution, and all related applications, widgets, software, tools will be referred to in this Policy as our “Services”.\n\n1. Personal Information that we collect\n\nWe collect information about you either when you provide it to us on our app or through the use of our Services, or in some cases, when other sources provide it to us.\n\nA. Personal Information you provide to us\nRegistration and profile information. When you create a CDS Journey account, we collect your name, mobile number, e-mail address, date of birth.\nName: It is visible to other users in the app and It is used for the user identification.\nMobile Number: It's not visible to other users and is used to log in and receive any notification from us.\nEmail: It is not visible to other users, and is used to log in and receive any notification from us.\nDate of Birth: This is not visible to other users, and is used to show user eligibility status as per exams.\nPayment details. When you register for our paid services, we collect your name and contact information, as well as your payment details, such as your payment card information or bank account details. We do not store your payment details in our system and rely on our third-party payment processor to securely process payments.\nCommunications. If you contact us directly or participate in a survey, we may receive additional Personal Information about you. For example, when you contact our customer support team, we will receive your name, email address, the contents of a message or attachments that you may send to us, and other information you choose to provide.\nSupport information. When you request technical support services, we will process your contact information, such as name, email address, phone number and the country in which you are based as well as information on the reasons for your support request, and any additional information you may provide in that context.\n\nIf you do not provide your Personal Information when requested, you may not be able to use our Services if that Personal Information is necessary to provide you with our Services or if we are legally required to collect it. Where required by applicable law, we indicate whether and why you must provide us with your Personal Information, as well as the consequences of failing to do so.\n\nB. Personal Information we collect automatically\nDevice information. We collect device or other IDs (such as Advertising ID, Android ID, IMEI, BSSID, MAC address) to troubleshoot issues with our app.\nC. Information we collect via Cookies\nCookies are small text files containing a string of alphanumeric characters. This Service does not use these \"cookies\" to collect information.\nD. Personal Information from Other Sources\nWe may receive information about you, including Personal Information, from third parties, and sources other than our Services, such as our business customers and partners. In addition, we use third-party Software Development Kits (“SDKs”) in order to connect with third-party service providers, through which we may exchange data in order to enable the functionality of our Services.\nIf we combine or associate information from other sources with Personal Information that we collect through our Services, we will treat the combined information as Personal Information in accordance with this Policy.\n2. How we use Personal Information\nA. We use the Personal Information we collect for the following purposes:\nProviding the Services. We use your Personal Information to operate, maintain, enhance, and provide features of our Services.\nSupport. We use Personal Information to provide technical support, including diagnosing and resolving any issues you report.\nFraud prevention. We may use your Personal Information to keep our Services secure and to identify and prevent fraud in the use of our Services.\nCustomer relationship management. We may process your Personal Information for customer relationship management purposes.\nCommunicating with you. We may use your email address and other Personal Information as necessary to contact you for administrative purposes such as to provide information that you request, to respond to comments and questions, or to ask you to provide feedback and complete surveys.\nAdministrative and legal purposes. We may use your Personal Information to address any administrative or legal issues pertaining to CDS Journey, including but not limited to intellectual property infringement, defamation, rights of privacy issues, to enforce our Terms of Service or other legal rights, or as may be required by applicable laws and regulations or requested by any judicial process or governmental agency.\nAggregation. We may aggregate or otherwise de-identify Personal Information and use the resulting information for other business purposes, as permitted by applicable law.\nOther purposes. If we intend to use your Personal Information for other purposes, we will provide specific notice at the time the Personal Information is collected.\nB. Legal grounds for processing\n\nWe will only process your personal information based on a valid legal ground, including when:\n\nYou give us consent to do so for a specific purpose;\nWe need it to provide you with the Services, for example to provide technical support you requested;\nWe need it to comply with a legal obligation, for instance to comply with a court order; or\nWe or a third party have a legitimate interest in using your Personal Information. In particular, we have a legitimate interest in using your Personal Information for development and internal analytics purposes, and otherwise to improve the safety, security, and performance of our Services. We only rely on our or a third party’s legitimate interests to process your Personal Information when these interests are not overridden by your rights and interests. When we are using your information because we or a third party have a legitimate interest to do so, you may have the right to object to that use.\n3. When we share Personal Information\n\nWe may disclose information to third parties if you consent to us doing so, as well as in the following circumstances:\n\nTo our third-party service providers who provide services such as website hosting, data analysis, information technology and related infrastructure provision, customer service, email delivery, auditing, payments processing and other services. We limit the Personal Information provided to these service providers to that which is reasonably necessary for them to perform their functions, and we require them to agree to maintain the confidentiality of such Personal Information.\nIf required to do so by law or in the good-faith belief that such action is necessary to comply with applicable laws, in response to a court order, judicial or other government subpoena or warrant, or to otherwise cooperate with law enforcement or other governmental agencies.\nWhere we believe, in good faith, that disclosing your Personal Information is appropriate or necessary to (i) take precautions against liability; (ii) protect ourselves or others from fraudulent, abusive, or unlawful uses or activity; (iii) investigate and defend ourselves against any third-party claims or allegations; (iv) protect the security or integrity of our Services and any facilities or equipment used to make our Services available; or (v) protect our property or other legal rights including, but not limited to, enforcement of our agreements, or the rights, property, or safety of others.\nTo an acquirer, successor or assignee as part of any merger, acquisition, debt financing, sale of assets, or similar transaction, as well as in the event of an insolvency, bankruptcy, or receivership in which information is transferred to one or more third parties as one of our business assets.\nTo our affiliates, subsidiaries, and branch offices for the above-mentioned purposes.\n\ncdsjourney shall remain liable under the principles if its agent processes such personal information in a manner inconsistent with the principles unless cdsjourney proves that it is not responsible for the event giving rise to the damage.\n\n4. Your rights and choices\n\nYou have certain rights regarding the Personal Information we maintain about you and certain choices about what Personal Information we collect from you, how we use it, and how we communicate with you.\n\nYou may decline to share certain Personal Information with us, in which case we may not be able to provide to you some of the features and functionality of our Services. You may access and update many categories of personal information that are collected as part of the Services offering by logging in to your account and accessing your account settings. Moreover, if you wish to access, amend, or delete any other Personal Information we hold about you, you may delete your account by opting delete account options in settings of our app or you may contact us using the contact details at the end of this Policy. Please note that while any changes you make will be reflected in active user databases instantly or within a reasonable period of time, we may retain all information you submit for backups, archiving, prevention of fraud and abuse, analytics, satisfaction of legal obligations, or where we otherwise reasonably believe that we have a legitimate reason to do so, to the extent permitted under applicable data protection law.\nIf you receive commercial email from us, you may unsubscribe at any time by following the instructions contained within the email. You may also opt out from receiving commercial email from us and any other promotional communications that we may send to you from time to time, by contacting us using the contact details at the end of this Policy.\nPlease be aware that if you opt out of receiving commercial email from us or otherwise modify the nature or frequency of promotional communications you receive from us, it may take up to ten business days for us to process your request and you may receive promotional communications from us that you have opted out from during that period, to the extent permitted by applicable law. Additionally, even after you opt out from receiving commercial messages from us, you will continue to receive administrative messages from us regarding our Services.\nYou may have additional rights as described below.\nYou may request access to and receive information about the Personal Information we maintain about you, update and correct inaccuracies in your Personal Information, restrict or object to the processing of your Personal Information, have the information anonymized or deleted, as appropriate, or exercise your right to data portability to easily transfer your Personal Information to another company. In addition, you may also have the right to lodge a complaint with a supervisory authority, including in your country of residence, place of work, or where an incident took place.\nYou may withdraw any consent you previously provided to us regarding the processing of your Personal Information, at any time, and free of charge. We will apply your preferences going forward and this will not affect the lawfulness of the processing before you withdrew your consent.\nYou may exercise these rights by contacting us using the contact details at the end of this Policy. Please note that there are exceptions and limitations to each of these rights, and that while any changes you make will be reflected in active user databases instantly or within a reasonable period of time, we may retain information for backups, archiving, prevention of fraud and abuse, analytics, satisfaction of legal obligations, or where we otherwise reasonably believe that we have a legitimate reason to do so, to the extent permitted by applicable law.\n5. Access\n\nYou may be allowed to access and view the Platform as a guest and without creating an account on the Platform or providing any Personal Information; CDS Journey does not validate or take responsibility towards information, if any, provided by you as a guest, except as otherwise required under any law, regulation, or an order of a competent authority. However, to have access to all the features and benefits on our Platform, you are required to first create an account on our Platform. To create an account, you are required to provide certain Personal Information as may be required during the time of registration and all other information requested on the registration page, including the ability to receive promotional offers from CDS Journey, is optional. CDS Journey may, in the future, include other optional requests for information from you to help CDS Journey to customize the Platform to deliver personalized information to you. CDS Journey may keep records of emails received from or made by you for making inquiries, feedback, or other purposes for the purpose of rendering Services effectively and efficiently.\n\n6. Third-party services\n\nThe Service may contain features or links to websites and services provided by third parties. For example, you may use our app store to integrate with other data analytics or data storage providers that may then collect Personal Information from you. Any information you provide on third-party sites or services is provided directly to the operators of such services and is subject to those operators’ policies, if any, governing privacy and security, even if accessed through the Services. We are not responsible for the content or privacy and security practices and policies of third-party sites or services to which links or access are provided through the Services. We encourage you to learn about third parties’ privacy and security policies before providing them with information.\n\n7. How we protect your Personal Information\n\nWe implement reasonable security measures to secure and protect your Personal Information. Our services incorporate privacy by design, including minimizing the data collected from customers, and technical and organizational measures to ensure we are providing the confidentiality and integrity which your data deserves. If we experience a data breach compromising Personal Information, we will notify you as quickly as possible, as required by regulatory requirements.\n\n8. Duration for which your Information is Stored\n\nMostly, when you delete any of the information provided by you or when you delete your account on the Platform, the same will be deleted from our servers too. However, in certain cases, we will retain your information for as long as it is required for us to retain for the purposes stated hereinabove, including for the purpose of complying with legal obligation or business compliances.\n\n9. Children’s privacy\n\nChildren’s safety is important to us, and we encourage parents and guardians to take an active interest in the online activities of their children. Our Services are not directed to children under the age of 18, and we do not knowingly collect Personal Information from children under the age of 18. If we learn that we have collected Personal Information from a child under the age of 18 on our Service, we will delete that information as quickly as possible. If you believe that we may have collected any such personal information on our Service, please notify us at support@cdsjourney.com.\n\n10. Country Specific Additional Privacy Terms\n\nIf you are located in India, you may have the following rights under the Personal Data Protection Bill (PDPB) when it becomes legislation. All requests can be made by using the option provided to you within the Platform upon your login. You may also write to us and we will address your concerns to the extent required by law.\n\nRight to Confirmation and Access: You have the right to get confirmation and access to your Personal Information that is with us along with other supporting information.\nRight to Correction: You have the right to ask us to rectify your Personal Information that is with us that you think is inaccurate. You also have the right to ask us to update your Personal Information that you think is incomplete or out-of-date.\nRight to Data Portability: You have the right to ask that we transfer the Personal Information you gave us to another organization, or to you, under certain circumstances.\nRight to be Forgotten: You have the right to restrict or prevent the continuing disclosure of your Personal Information under certain circumstances.\nRight to Erasure: if you wish to withdraw/remove your Personal Information from our Platform, you have the right to request erasure of your Personal Information from our Platform. However, please note that such erasure will remove all your Personal Information from our Platform (except as specifically stated in this Policy) and may result in deletion of your account on the Platform permanently, and the same will not be retrievable.\n11. Updates to this Privacy Policy\n\nWe occasionally update this Policy. When we do, we will also revise the “last modified” date at the beginning of the Policy. Your continued use of our Service after such changes will be subject to the then-current policy. We encourage you to periodically review this Policy to stay informed about how we collect, use, and disclose your information.\n\n12. Grievance Redressal Mechanism\n\nAny complaints or request or concerns with regards to use, processing or disclosure of information provided by you or breach of these terms may be taken up with the designated grievance redressal officer as mentioned below via post or by sending an email to support@cdsjourney.com\n\nGrievance Redressal Officer:\n\nName: Anurag Tripathi\nEmail: support@cdsjourney.com\nAddress: 5/543 sector 5 Gomti Nagar Extension, Lucknow\n13. How to contact us\n\nIf you have any questions about this Privacy Policy, you can contact us:\n\nMobile: +91 9198151228\nBy visiting this page on our Website/Application: www.cdsjourney.com\nBy emailing us at: support@cdsjourney.com\n14. Delete Your Account and Data\n\nIf you wish to delete your account and all associated data from our app, you can submit a request By emailing us at: support@cdsjourney.com for account deletion\n\nDeleting your account will remove all your personal data, settings, and history associated with our app.\nThis action is irreversible, and once completed, your data cannot be restored.\nPlease ensure that you have saved any important information before proceeding.\nMobile: +91 9198151228\nBy emailing us at: support@cdsjourney.com\n15. Disclaimer:\nCDS Journey is not affiliated with or endorsed by any government entity. We are an independent platform providing educational content to help students prepare for defense exams. This app/website is intended only for learning and preparation for the CDS/AFCAT/NDA Exam. We are not affiliated with any government entity or organization conducting the CDS/AFCAT/NDA exam in any manner. This app is developed and owned by CDSJourney. For more information about the AFCAT/NDA Exam, please visit the official government website at https://www.afcat.cdac.in (for AFCAT) or https://nda.nic.in (for NDA).\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  },
+  "refund": {
+   "url": "https://www.cdsjourney.com/refund-policy/",
+   "title": "cds.journey is India's most loved platform for Defence Exams",
+   "headings": [
+    "Refund Policy",
+    "Welcome",
+    "Verify Your Email"
+   ],
+   "body": "Live Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nLive Batches\nTime Bound Test\nMock Test\nStudy Material\nCart\nSignup/Login\nRefund Policy\n\nWhen you buy our batches, your purchase is not entitled for any refund. If you buy any online batch/service, it is non-refundable. If you purchase any batch by mistake, you can request to change it to another batch of the same amount within 10 days of the purchase. We recommend you to first check the complete system and then decide to make a payment in case of batches or any services.\n\nIf you make double payment for the same batch then it will be refunded within 14 days of the purchase. In case of any discrepancy you can write a mail to our admin team- at support@cdsjourney.com\n\nx\nCorporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)\n\nEmail - support@cdsjourney.com\n\n© 2024 CDS Journey: All rights reserved.\n\nCompany\n\nHome\n\nAbout Us\n\nContact Us\n\nHelp & Support\n\nTerms Conditions\n\nPrivacy Policy\n\nRefund/Cancellation Policy\n\nFAQ's\n\n© Designed by Cds.Journey"
+  }
+ }
+}
