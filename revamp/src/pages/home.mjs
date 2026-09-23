@@ -5,44 +5,22 @@
 // Layout families used: banner, row, grid, grid(reuse), list, centered-stack,
 // split -> satisfies the "no family more than twice" rule.
 
+import { COURSE_ASSETS, avatarPath, localPath } from "../lib/course-assets.mjs";
+import { testCard } from "../lib/test-assets.mjs";
+
 function money(price) {
   if (!price) return null;
   return price.replace("₹", "₹ ");
 }
 
-// Course/test URLs in site-data.json are absolute (scraped from the live
-// site). Keep the same path structure locally so route-coverage.md's
-// "preserve URLs" requirement holds once each page is actually built.
-function localPath(absoluteUrl) {
-  return new URL(absoluteUrl).pathname;
-}
-
 function courseCard(course) {
   const isComingSoon = !course.price;
-  const thumbMap = {
-    "course-kilo-ota": "kilo-ota.webp",
-    "course-india-capf12": "india-capf12.webp",
-    "course-lima-nda": "lima-nda.webp",
-    "course-india-capf2": "india-capf2.webp",
-    "course-kilo-math": "kilo-math.webp",
-    "course-juliet-afcat": "juliet-afcat.webp",
-    "course-ssb-psych": "ssb-psych.webp",
-  };
-  const avatarMap = {
-    anurag_bhaiya: "anurag_bhaiya.jpg",
-    ashish_sir: "ashish_sir.jpg",
-    pooja_maam_UKItbrn: "pooja_maam_UKItbrn.jpg",
-    sandeep_sir: "sandeep_sir.jpg",
-  };
-  const avatars = (course.avatars || []).slice(0, 3).map((a) => {
-    const key = Object.keys(avatarMap).find((k) => a.includes(k));
-    return key ? `/assets/images/courses/${avatarMap[key]}` : null;
-  }).filter(Boolean);
+  const avatars = (course.avatars || []).slice(0, 3).map(avatarPath).filter(Boolean);
 
   return `
   <article class="course-card">
     <div class="thumb">
-      <img src="/assets/images/courses/${thumbMap[course.slug]}" alt="" loading="lazy">
+      <img src="/assets/images/courses/${COURSE_ASSETS[course.slug].thumb}" alt="" loading="lazy">
     </div>
     <div class="body">
       <div class="meta-row">
@@ -58,29 +36,6 @@ function courseCard(course) {
         </a>
       </div>
     </div>
-  </article>`;
-}
-
-const testIcon = {
-  CDS: { src: "/assets/images/exams/cds-insignia.png" },
-  NDA: { src: "/assets/images/exams/nda-insignia.gif" },
-  AFCAT: { src: "/assets/images/exams/afcat-insignia.png" },
-  CAPF: { fallback: "CAPF" },
-};
-
-function testCard(name, count) {
-  const icon = testIcon[name];
-  return `
-  <article class="test-card">
-    ${icon.src
-      ? `<img class="icon" src="${icon.src}" alt="${name} insignia" loading="lazy">`
-      : `<div class="icon-fallback" aria-hidden="true">${icon.fallback}</div>`}
-    <h3>${name}</h3>
-    <div>
-      <span class="count">${count}</span>
-      <div class="count-label">free mock tests · English</div>
-    </div>
-    <a class="btn btn-secondary btn-block" href="/testseries/">View tests</a>
   </article>`;
 }
 
@@ -136,10 +91,10 @@ export function homePage(site) {
           <p>Exam-pattern mock tests, sectional practice and PYQ analysis &mdash; free, accessible any time.</p>
         </div>
         <div class="test-grid">
-          ${testCard("CDS", counts.CDS)}
-          ${testCard("NDA", counts.NDA)}
-          ${testCard("AFCAT", counts.AFCAT)}
-          ${testCard("CAPF", counts.CAPF)}
+          ${testCard("CDS", counts.CDS, { linkToDetail: true })}
+          ${testCard("NDA", counts.NDA, { linkToDetail: true })}
+          ${testCard("AFCAT", counts.AFCAT, { linkToDetail: true })}
+          ${testCard("CAPF", counts.CAPF, { linkToDetail: true })}
         </div>
       </div>
     </section>

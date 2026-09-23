@@ -26,6 +26,8 @@ server, not `file://`.
 - `docs/route-coverage.md` — the acceptance-gate tracker; update the relevant row whenever a page moves state.
 
 ## Status
-Home page implemented (see `docs/design-notes/home.md`). Course-detail, test-series,
-resources, support and legal pages are next — see `docs/route-coverage.md` for the
-full list and `docs/brand-guidelines.md` §Delivery sequence for the order.
+All 23 pages implemented and building cleanly (`npm run build`), with every
+internal link verified to resolve. See `docs/route-coverage.md` for the
+per-page table and `docs/design-notes/` for rationale + Pre-Flight results.
+Not yet done: real browser/screen-reader QA, Lighthouse/axe, legal review of
+the paraphrased Privacy Policy sections, and any backend integration.

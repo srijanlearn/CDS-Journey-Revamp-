@@ -82,6 +82,44 @@ export function siteFooter(site) {
   </footer>`;
 }
 
+export function breadcrumb(trail) {
+  // trail: [{label, href?}] — only the last item is "current"; a middle item
+  // with no href (e.g. a non-linkable category label) is plain text, not
+  // marked current.
+  const parts = trail.map((item, i) => {
+    const isLast = i === trail.length - 1;
+    const sep = i > 0 ? '<span aria-hidden="true">/</span>' : "";
+    let node;
+    if (isLast) node = `<span aria-current="page">${item.label}</span>`;
+    else if (item.href) node = `<a href="${item.href}">${item.label}</a>`;
+    else node = `<span>${item.label}</span>`;
+    return sep + node;
+  }).join("");
+  return `<nav class="wrap breadcrumb" aria-label="Breadcrumb">${parts}</nav>`;
+}
+
+// Renders a disabled action as an inert element (not a real link) so
+// aria-disabled is actually true, not just labeled true on a clickable <a>.
+export function actionButton({ href, label, variant = "btn-primary", disabled = false }) {
+  if (disabled) {
+    return `<span class="btn ${variant}" aria-disabled="true">${label}</span>`;
+  }
+  return `<a class="btn ${variant}" href="${href}">${label}</a>`;
+}
+
+export function emptyState({ heading, body }) {
+  return `
+  <section class="section">
+    <div class="wrap">
+      <div class="empty-state">
+        <div class="mark" aria-hidden="true">&#9203;</div>
+        <h1>${heading}</h1>
+        <p>${body}</p>
+      </div>
+    </div>
+  </section>`;
+}
+
 export function pageShell({ title, description, active, bodyClass = "", content }) {
   return `<!DOCTYPE html>
 <html lang="en">
