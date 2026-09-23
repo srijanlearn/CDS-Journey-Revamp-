@@ -331,6 +331,23 @@ h1, h2, h3 {
 .accordion details[open] summary::after { content: "\2212"; }
 .accordion .answer { padding: 0 var(--space-5) var(--space-5); color: var(--color-text-muted); font-size: var(--text-sm); }
 
+/* ---- syllabus disclosure (course overview images run 10-15k px tall in the
+   source data — collapse behind a summary so the page loads at a normal
+   height instead of dumping the whole image by default; nothing is removed,
+   just hidden until asked for, per the hide-don't-delete pattern already
+   used for the FAQ accordion) ---- */
+.syllabus-reveal { border: 1px solid var(--color-border-subtle); border-radius: var(--radius-card); overflow: hidden; background: var(--color-surface); }
+.syllabus-reveal summary {
+  cursor: pointer; list-style: none; padding: var(--space-4) var(--space-5);
+  font-family: var(--font-heading); font-weight: 600;
+  display: flex; justify-content: space-between; align-items: center; gap: var(--space-4);
+  min-height: var(--target-size);
+}
+.syllabus-reveal summary::-webkit-details-marker { display: none; }
+.syllabus-reveal summary::after { content: "Show \25be"; font-size: var(--text-sm); color: var(--color-brand-secondary); flex: none; }
+.syllabus-reveal[open] summary::after { content: "Hide \25b4"; }
+.syllabus-reveal img { display: block; width: 100%; border-top: 1px solid var(--color-border-subtle); }
+
 /* ---- legal article typography ---- */
 .legal-article { max-width: var(--width-reading); margin: 0 auto; }
 .legal-article h2 { font-size: var(--text-lg); margin-top: var(--space-8); margin-bottom: var(--space-3); }

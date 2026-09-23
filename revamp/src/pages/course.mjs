@@ -74,7 +74,10 @@ export function courseDetailPage(course, site) {
           <p>Full syllabus, schedule and batch details as published by CDS Journey.</p>
         </div>
         ${assets.overview
-          ? `<img src="/assets/images/courses/${assets.overview}" alt="${course.title} — syllabus and schedule overview" loading="lazy" style="border-radius:var(--radius-card);border:1px solid var(--color-border-subtle)">`
+          ? `<details class="syllabus-reveal">
+               <summary>View full syllabus &amp; schedule</summary>
+               <img src="/assets/images/courses/${assets.overview}" alt="${course.title} — syllabus and schedule overview" loading="lazy">
+             </details>`
           : `<p style="text-align:center;color:var(--color-text-muted)">Detailed overview not yet published for this batch.</p>`}
       </div>
     </section>

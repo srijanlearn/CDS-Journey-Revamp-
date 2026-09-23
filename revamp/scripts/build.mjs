@@ -89,7 +89,7 @@ async function build() {
   await writePage("/live-tests", pageShell({
     title: "Live Tests | CDS Journey",
     description: "Live, timed test rooms — coming soon.",
-    active: "home",
+    active: "",
     content: liveTestsPage(),
   }));
 
@@ -110,42 +110,42 @@ async function build() {
   await writePage("/about-us", pageShell({
     title: "About Us | CDS Journey",
     description: "What CDS Journey does, offers and has achieved for defence exam aspirants.",
-    active: "home",
+    active: "",
     content: aboutPage(),
   }));
 
   await writePage("/contact-us", pageShell({
     title: "Contact Us | CDS Journey",
     description: "Address, email and phone/WhatsApp contact for CDS Journey.",
-    active: "home",
+    active: "",
     content: contactPage(site),
   }));
 
   await writePage("/faq", pageShell({
     title: "FAQ | CDS Journey",
     description: "Frequently asked questions about batches, payments and free content.",
-    active: "home",
+    active: "",
     content: faqPage(),
   }));
 
   await writePage("/terms-conditions", pageShell({
     title: "Terms & Conditions | CDS Journey",
     description: "Terms and conditions for using CDS Journey.",
-    active: "home",
+    active: "",
     content: legalPage(TERMS, "Terms & Conditions"),
   }));
 
   await writePage("/privacy-policy", pageShell({
     title: "Privacy Policy | CDS Journey",
     description: "How CDS Journey collects, uses and protects your personal information.",
-    active: "home",
+    active: "",
     content: legalPage(PRIVACY, "Privacy Policy"),
   }));
 
   await writePage("/refund-policy", pageShell({
     title: "Refund Policy | CDS Journey",
     description: "CDS Journey's refund and cancellation policy.",
-    active: "home",
+    active: "",
     content: legalPage(REFUND, "Refund Policy"),
   }));
 
