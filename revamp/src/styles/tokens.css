@@ -1,0 +1,60 @@
+/* CDS Journey proposed semantic tokens v0.1.
+ * Not imported into the legacy clone. Contrast and rendering need verification.
+ * No remote font imports: provide licensed font assets during implementation.
+ */
+:root {
+  color-scheme: light;
+  --color-brand: #023f47;
+  --color-brand-secondary: #0b6b76;
+  --color-accent: #f5b301;
+  --color-background: #f7f6f2;
+  --color-surface: #ffffff;
+  --color-text: #172b2d;
+  --color-text-muted: #526466;
+  --color-on-brand: #ffffff;
+  --color-on-accent: #172b2d;
+  --color-border-subtle: #dce4e2;
+  --color-border-control: #637b7a;
+  --color-error: #b4232a;
+  --color-success: #216345;
+  --color-focus: #0b6b76;
+  --font-heading: 'Poppins', 'Noto Sans Devanagari', system-ui, sans-serif;
+  --font-body: 'Jost', 'Noto Sans Devanagari', system-ui, sans-serif;
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.5rem;
+  --text-2xl: clamp(1.75rem, 1.3rem + 2vw, 2.5rem);
+  --text-display: clamp(2.25rem, 1.5rem + 3vw, 4rem);
+  --leading-body: 1.65;
+  --leading-heading: 1.25;
+  --leading-devanagari: 1.8;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --radius-control: 0.5rem;
+  --radius-card: 1rem;
+  --radius-overlay: 1.25rem;
+  --shadow-overlay: 0 12px 36px rgb(2 63 71 / 12%);
+  --width-content: 75rem;
+  --width-reading: 68ch;
+  --target-size: 2.75rem;
+  --focus-width: 3px;
+  --focus-offset: 3px;
+  --duration-feedback: 140ms;
+  --duration-panel: 180ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-feedback: 0ms;
+    --duration-panel: 0ms;
+  }
+}
