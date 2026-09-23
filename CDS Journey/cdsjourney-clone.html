@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>cds.journey is India's most loved platform for Defence Exams</title>
+<meta name="description" content="Welcome to CDS Journey The most trusted exam preparation Site for competitive exams. CDS Journey Provide Study material, Daily Current Affairs, PDF, Practice Set in Hindi.">
+<link rel="icon" href="assets/images/cdn.cdsjourney.com/cds-logo2-83af84a5b4.png">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<style>
+:root{
+  --bg:#ffffff;
+  --surface:#eef7fa;
+  --surface-2:#ddf3f1;
+  --fg:#333333;
+  --ink:#1f2d3d;
+  --muted:#343f52;
+  --border:#d9e7ec;
+  --accent:#023f47;
+  --accent-2:#0b6b76;
+  --gold:#f5b301;
+  --danger:#e5484d;
+  --radius:14px;
+  --shadow:0 10px 30px rgba(2,63,71,.12);
+  --font-display:'Poppins','Jost',system-ui,sans-serif;
+  --font-body:'Jost','Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);color:var(--fg);background:var(--bg);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+h1,h2,h3,h4{font-family:var(--font-display);color:var(--ink);line-height:1.25}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+:focus-visible{outline:3px solid var(--accent-2);outline-offset:2px;border-radius:6px}
+
+/* disclaimer ticker */
+.ticker{background:#fff;border-bottom:1px solid var(--border);font-size:11.5px;color:#b4232a;overflow:hidden;white-space:nowrap}
+.ticker-inner{display:inline-block;padding:6px 0;animation:tick 40s linear infinite}
+@keyframes tick{from{transform:translateX(100vw)}to{transform:translateX(-100%)}}
+
+/* header */
+header.site{position:sticky;top:0;z-index:60;background:#fff;transition:box-shadow .25s}
+header.site.scrolled{box-shadow:0 4px 18px rgba(2,63,71,.12)}
+.nav{display:flex;align-items:center;gap:26px;height:76px}
+.brand img{height:40px;width:auto}
+.links{display:flex;align-items:center;gap:22px;margin-left:8px;font-family:var(--font-display);font-size:14.5px;font-weight:500;color:var(--ink)}
+.links a{position:relative;padding:6px 0}
+.links a:hover{color:var(--accent-2)}
+.dot-live{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--danger);margin-right:5px;animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.35}}
+.has-drop{position:relative}
+.drop{position:absolute;top:calc(100% + 10px);left:-12px;min-width:190px;background:#fff;border:1px solid var(--border);border-radius:12px;box-shadow:var(--shadow);padding:8px;display:none}
+.has-drop.open .drop{display:block}
+.drop a{display:block;padding:12px 14px;border-radius:8px;font-size:14px}
+.drop a:hover{background:var(--surface)}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:14px}
+.cart-btn{display:flex;align-items:center;gap:7px;font-family:var(--font-display);font-size:14.5px;font-weight:500;color:var(--ink);background:none;border:0;padding:10px 6px;position:relative}
+.cart-btn img{width:20px;height:20px}
+.cart-count{position:absolute;top:2px;left:22px;min-width:19px;height:19px;border-radius:10px;background:var(--danger);color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;padding:0 5px}
+.btn-primary{background:var(--accent);color:#fff;border:1px solid var(--accent);border-radius:10px;padding:11px 22px;font-family:var(--font-display);font-weight:600;font-size:14.5px;display:inline-flex;align-items:center;gap:8px;transition:background .18s,transform .18s}
+.btn-primary:hover{background:var(--accent-2);border-color:var(--accent-2)}
+.btn-primary:active{transform:translateY(1px)}
+.icon-btn{background:none;border:1px solid var(--border);border-radius:10px;width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center}
+.icon-btn:hover{border-color:var(--accent-2)}
+.icon-btn img{width:20px;height:20px}
+.hamburger{display:none}
+
+/* hero */
+.hero{background:linear-gradient(180deg,#e8f3f5,#dcebec)}
+.hero img{width:100%;height:auto;object-fit:cover}
+
+/* hindi intro */
+.intro{padding:64px 0 8px}
+.intro-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:32px;align-items:center}
+.intro h1{font-size:clamp(30px,4.4vw,52px);font-weight:700}
+.intro h1 .teal{color:var(--accent-2)}
+.intro p.sub{margin-top:12px;font-size:17px;color:var(--muted)}
+.intro-art img{width:100%;max-width:520px;margin-left:auto}
+
+/* sections */
+section.block{padding:52px 0}
+.sec-head{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:26px}
+.sec-head h2{font-size:clamp(21px,2.6vw,28px);font-weight:700;text-align:center}
+.carousel-row{position:relative}
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(300px,380px);gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 4px 18px;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.rail>*{scroll-snap-align:start}
+.nav-arrow{position:absolute;top:38%;width:46px;height:46px;border-radius:50%;border:1px solid #fff;background:rgba(0,0,0,.5);color:#fff;font-size:20px;display:flex;align-items:center;justify-content:center;z-index:2;transition:background .18s}
+.nav-arrow:hover{background:var(--accent)}
+.nav-arrow.prev{left:-8px}.nav-arrow.next{right:-8px}
+
+/* batch cards */
+.batch{position:relative;border-radius:var(--radius);overflow:hidden;min-height:250px;display:flex;align-items:flex-end;box-shadow:var(--shadow);background:var(--accent)}
+.batch img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.batch::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(2,30,35,0) 30%,rgba(2,30,35,.72))}
+.batch-body{position:relative;z-index:1;padding:18px;color:#fff;width:100%}
+.batch-body h3{color:#fff;font-size:16px;font-weight:600;letter-spacing:.2px}
+.batch-body .price{margin:6px 0 10px;font-family:var(--font-display);font-weight:700;font-size:15px}
+.pill{display:inline-block;background:var(--accent);color:#fff;border:1px solid rgba(255,255,255,.35);font-size:12.5px;font-weight:600;padding:10px 18px;border-radius:20px;transition:background .18s}
+button.pill:hover{background:var(--accent-2)}
+span.pill{cursor:default}
+
+#railLive{display:grid;grid-auto-flow:row;grid-template-columns:repeat(3,1fr);overflow:visible;gap:22px}
+@media(max-width:900px){#railLive{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){#railLive{grid-template-columns:1fr}}
+
+/* test series */
+.tests{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+@media(max-width:900px){.tests{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.tests{grid-template-columns:1fr}}
+.test-card{background:linear-gradient(180deg,#f2fbfa,var(--surface-2));border:1px solid #cde9e4;border-radius:var(--radius);padding:22px;text-align:center;transition:transform .18s,box-shadow .18s}
+.test-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.test-card img{width:64px;height:64px;object-fit:contain;margin:0 auto 10px}
+.test-card h3{font-size:17px}
+.test-card .capf-badge{width:64px;height:64px;margin:0 auto 10px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;font-size:13px}
+.kv{display:flex;justify-content:space-between;font-size:13.5px;color:var(--muted);border-top:1px dashed #bfe0da;padding:8px 2px}
+.kv b{color:#b4232a;background:#ffe9e9;border-radius:6px;padding:0 8px;font-size:12.5px}
+.test-card .btn-primary{width:100%;justify-content:center;margin-top:12px;padding:10px}
+
+/* why choose */
+.why{background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.why h2{text-align:center;font-size:clamp(21px,2.6vw,28px);margin-bottom:28px}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+@media(max-width:900px){.why-grid{grid-template-columns:repeat(2,1fr);gap:24px}}
+@media(max-width:560px){.why-grid{grid-template-columns:1fr}}
+.why-cell{text-align:center;padding:6px 22px;border-right:2px solid var(--accent-2)}
+.why-cell:last-child{border-right:0}
+@media(max-width:900px){.why-cell{border-right:0}}
+.why-cell .big{font-family:var(--font-display);font-weight:700;font-size:30px;color:var(--ink)}
+.why-cell img{width:44px;height:44px;margin:0 auto 8px}
+.why-cell p{font-size:14px;color:var(--muted)}
+.nobooks{text-align:center;margin-top:34px}
+.nobooks h3{color:var(--accent-2);font-size:clamp(20px,2.6vw,27px);display:inline-block}
+.nobooks img{width:min(300px,60%);margin:2px auto 0}
+
+/* instagram band */
+.insta{background:var(--accent);color:#fff;padding:64px 0}
+.insta-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center}
+.insta h2{color:#fff;font-size:clamp(28px,4vw,46px);font-weight:700}
+.insta p.sub{color:#9fd3d9;margin:10px 0 20px}
+.store-row{display:flex;gap:10px;flex-wrap:wrap}
+.store-row a{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.4);border-radius:8px;padding:8px 14px;font-size:13.5px;font-weight:600;color:#fff;transition:background .18s}
+.store-row a:hover{background:rgba(255,255,255,.12)}
+.store-row img{height:22px;width:auto}
+.insta-art img{width:100%;max-width:380px;margin-left:auto;filter:drop-shadow(0 24px 40px rgba(0,0,0,.35))}
+
+/* footer */
+footer{background:#024149;background:var(--accent);color:#cacaca;padding:52px 0 0;font-size:14px}
+.foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:32px}
+@media(max-width:800px){.foot-grid{grid-template-columns:1fr}}
+.foot-grid h4{color:#fff;font-size:15px;margin-bottom:12px}
+.foot-grid ul{list-style:none}
+.foot-grid li{margin:7px 0}
+.foot-grid a:hover{color:#fff}
+.foot-logo{height:40px;width:auto;margin-bottom:14px;filter:brightness(0) invert(1)}
+.socials{display:flex;gap:10px;margin-top:16px}
+.socials a{width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;transition:background .18s}
+.socials a:hover{background:rgba(255,255,255,.25)}
+.socials img{width:17px;height:17px}
+.copy{border-top:1px solid rgba(255,255,255,.15);margin-top:36px;padding:16px 0 20px;text-align:center;font-size:12.5px;color:#9fb9bc}
+
+/* search overlay */
+.search-ov{position:fixed;inset:0;background:rgba(2,40,46,.66);z-index:90;display:none;align-items:flex-start;justify-content:center;padding:90px 20px 20px}
+.search-ov.open{display:flex}
+.search-box{background:#fff;border-radius:16px;max-width:560px;width:100%;padding:22px;box-shadow:var(--shadow)}
+.search-box input{width:100%;border:1px solid var(--border);border-radius:10px;padding:13px 16px;font-size:15px;font-family:inherit}
+.search-results{margin-top:12px;max-height:320px;overflow:auto}
+.search-results a{display:flex;justify-content:space-between;gap:10px;padding:12px 8px;border-bottom:1px solid var(--border);font-size:14px;color:var(--ink)}
+.search-results a:hover{background:var(--surface)}
+
+/* modal + drawer + toast */
+.overlay{position:fixed;inset:0;background:rgba(2,40,46,.6);z-index:100;display:none;align-items:center;justify-content:center;padding:20px}
+.overlay.open{display:flex}
+.modal{background:#fff;border-radius:18px;max-width:420px;width:100%;padding:30px;position:relative;text-align:center;box-shadow:var(--shadow)}
+.modal img.logo{height:38px;margin:0 auto 12px}
+.modal h2{font-size:22px;margin-bottom:6px}
+.modal p.hint{font-size:13.5px;color:var(--muted);margin-bottom:16px}
+.modal label{display:block;text-align:left;font-size:13px;font-weight:600;margin:10px 0 5px;color:var(--ink)}
+.modal input{width:100%;border:1px solid var(--border);border-radius:10px;padding:12px 14px;font-size:15px;font-family:inherit}
+.modal input:focus{border-color:var(--accent-2)}
+.modal .btn-primary{width:100%;justify-content:center;margin-top:16px}
+.close-x{position:absolute;top:12px;right:14px;background:none;border:0;font-size:22px;color:var(--muted);width:44px;height:44px}
+.close-x:hover{color:var(--ink)}
+.linklike{background:none;border:0;color:var(--accent-2);font-weight:600;font-size:13.5px;padding:10px 8px}
+.linklike:hover{text-decoration:underline}
+.drawer{position:fixed;top:0;right:-380px;width:min(360px,92vw);height:100dvh;background:#fff;z-index:100;box-shadow:-12px 0 40px rgba(0,0,0,.2);transition:right .28s ease;display:flex;flex-direction:column}
+.drawer.open{right:0}
+.drawer header{display:flex;align-items:center;justify-content:space-between;padding:18px 20px;border-bottom:1px solid var(--border);font-family:var(--font-display);font-weight:700;color:var(--ink)}
+.drawer .items{flex:1;overflow:auto;padding:12px 20px}
+.cart-item{display:flex;gap:12px;border:1px solid var(--border);border-radius:12px;padding:10px;margin-bottom:12px}
+.cart-item img{width:76px;height:60px;object-fit:cover;border-radius:8px}
+.cart-item h4{font-size:13.5px}
+.cart-item .pr{font-weight:700;color:var(--accent);font-size:14px}
+.cart-item button.rm{margin-left:auto;background:none;border:0;color:var(--danger);font-size:13px;align-self:flex-start;padding:10px 6px}
+.drawer footer{background:#fff;padding:16px 20px;border-top:1px solid var(--border);color:var(--ink)}
+.tot{display:flex;justify-content:space-between;font-weight:700;margin-bottom:12px;font-family:var(--font-display)}
+.toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);background:#fff;border:1px solid var(--border);border-left:6px solid var(--accent-2);box-shadow:var(--shadow);border-radius:12px;padding:14px 18px;display:none;align-items:center;gap:12px;z-index:120;max-width:min(480px,92vw)}
+.toast.show{display:flex;animation:up .25s ease}
+@keyframes up{from{transform:translateX(-50%) translateY(20px);opacity:0}}
+.toast img{height:34px}
+#toTop{position:fixed;right:22px;bottom:22px;width:48px;height:48px;border-radius:50%;background:var(--accent);color:#fff;border:0;font-size:20px;display:none;z-index:80}
+#toTop.show{display:block}
+#toTop:hover{background:var(--accent-2)}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .5s,transform .5s}
+.reveal.in{opacity:1;transform:none}
+
+@media(max-width:960px){
+  .links,.nav-right .btn-primary{display:none}
+  .hamburger{display:inline-flex}
+  .intro-grid,.insta-grid{grid-template-columns:1fr}
+  .intro-art img,.insta-art img{margin:0 auto}
+  .nav-arrow.prev{left:2px}.nav-arrow.next{right:2px}
+}
+.mobile-menu{position:fixed;top:0;left:-300px;width:min(280px,86vw);height:100dvh;background:#fff;z-index:100;transition:left .28s ease;padding:22px;box-shadow:12px 0 40px rgba(0,0,0,.18)}
+.mobile-menu.open{left:0}
+.mobile-menu a{display:block;padding:12px 6px;border-bottom:1px solid var(--border);font-family:var(--font-display);font-weight:500;color:var(--ink)}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .ticker-inner,.dot-live{animation:none}
+  .reveal{opacity:1;transform:none;transition:none}
+  *{transition-duration:.01ms !important}
+}
+</style>
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}.ticker-inner{animation:none}</style></noscript>
+</head>
+<body>
+
+<div class="ticker" aria-hidden="true"><span class="ticker-inner">Disclaimer: Our website and app is intended only for learning and preparation for the CDS/AFCAT/NDA Exam. We are not affiliated with any government entity. For CDS visit http://www.upsc.gov.in/ &nbsp;•&nbsp; AFCAT: https://www.afcat.cdac.in &nbsp;•&nbsp; NDA: https://nda.nic.in &nbsp;•&nbsp;&nbsp;</span></div>
+
+<header class="site" id="siteHeader" data-od-id="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#" data-od-id="brand-logo" aria-label="CDS Journey home"><img src="assets/images/cdn.cdsjourney.com/cds-logo2-83af84a5b4.png" alt="cds.journey logo"></a>
+    <nav class="links" aria-label="Primary" data-od-id="primary-nav">
+      <a href="#live-batches"><span class="dot-live"></span>Live Batches</a>
+      <a href="#upcoming">Time Bound Test</a>
+      <span class="has-drop" id="mockDrop">
+        <a href="#test-series" id="mockToggle" aria-haspopup="true" aria-expanded="false">Mock Test ▾</a>
+        <span class="drop" role="menu">
+          <a href="#test-series">CDS</a><a href="#test-series">NDA</a><a href="#test-series">AFCAT</a><a href="#test-series">CAPF</a><a href="#test-series">Live Test</a>
+        </span>
+      </span>
+      <a href="#why">Study Material</a>
+    </nav>
+    <div class="nav-right">
+      <button class="icon-btn" id="searchBtn" aria-label="Search batches" data-od-id="search-open"><img src="assets/images/cdn.cdsjourney.com/search-icn-063d395f40.png" alt=""></button>
+      <button class="cart-btn" id="cartBtn" data-od-id="cart-open"><img src="assets/images/static-assets-web.flixcart.com/header_cart-eed150-ea27e65894.svg" alt="">Cart<span class="cart-count" id="cartCount">0</span></button>
+      <button class="btn-primary" id="loginBtn" data-od-id="login-open">Signup/Login</button>
+      <button class="icon-btn hamburger" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<aside class="mobile-menu" id="mobileMenu" aria-label="Mobile">
+  <a href="#live-batches">Live Batches</a><a href="#upcoming">Time Bound Test</a><a href="#test-series">Mock Test</a><a href="#why">Study Material</a><a href="#" id="mLogin">Signup/Login</a>
+</aside>
+
+<section class="hero" data-od-id="hero-banner">
+  <img src="assets/images/cdn.cdsjourney.com/Frame_211_8055kYy-bebc332dba.webp" alt="All Mock Tests, Notes, Magazines are Free — CDS Journey banner">
+</section>
+
+<section class="intro" data-od-id="intro-hindi">
+  <div class="wrap intro-grid">
+    <div class="reveal">
+      <h1 lang="hi">सर नीचे और बस<br><span class="teal">अपनी मेहनत</span></h1>
+      <p class="sub">Bharat's Most loved defence page</p>
+    </div>
+    <div class="intro-art reveal"><img src="assets/images/cdn.cdsjourney.com/sar-niche-35defb1e85.svg" alt="Student preparing with mock test illustration"></div>
+  </div>
+</section>
+
+<section class="block" id="upcoming" data-od-id="upcoming-batches">
+  <div class="wrap">
+    <div class="sec-head"><h2>Upcoming Batches</h2></div>
+    <div class="carousel-row">
+      <button class="nav-arrow prev" data-target="railUpcoming" aria-label="Previous">‹</button>
+      <div class="rail" id="railUpcoming"></div>
+      <button class="nav-arrow next" data-target="railUpcoming" aria-label="Next">›</button>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="live-batches" data-od-id="live-batches" style="padding-top:8px">
+  <div class="wrap">
+    <div class="sec-head"><h2>Live Batches</h2></div>
+    <div class="carousel-row">
+      <div class="rail" id="railLive"></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="test-series" data-od-id="test-series" style="padding-top:8px">
+  <div class="wrap">
+    <div class="sec-head"><h2>Test Series</h2></div>
+    <div class="tests reveal">
+      <div class="test-card">
+        <img src="assets/images/cdn.cdsjourney.com/Seal_of_Chief_of_Defence_Staff_India-50ea9347c2.png" alt="CDS insignia">
+        <h3>CDS</h3>
+        <div class="kv"><span>Language</span><span>English</span></div>
+        <div class="kv"><span>Total Mock Test</span><b>138</b></div>
+        <button class="btn-primary" data-view="CDS">View</button>
+      </div>
+      <div class="test-card">
+        <img src="assets/images/cdn.cdsjourney.com/NDA_Insignia-1956-194992f88a.gif" alt="NDA insignia">
+        <h3>NDA</h3>
+        <div class="kv"><span>Language</span><span>English</span></div>
+        <div class="kv"><span>Total Mock Test</span><b>94</b></div>
+        <button class="btn-primary" data-view="NDA">View</button>
+      </div>
+      <div class="test-card">
+        <img src="assets/images/cdn.cdsjourney.com/2-61959b5b38.png" alt="AFCAT insignia">
+        <h3>AFCAT</h3>
+        <div class="kv"><span>Language</span><span>English</span></div>
+        <div class="kv"><span>Total Mock Test</span><b>6</b></div>
+        <button class="btn-primary" data-view="AFCAT">View</button>
+      </div>
+      <div class="test-card">
+        <div class="capf-badge">CAPF</div>
+        <h3>CAPF</h3>
+        <div class="kv"><span>Language</span><span>English</span></div>
+        <div class="kv"><span>Total Mock Test</span><b>1</b></div>
+        <button class="btn-primary" data-view="CAPF">View</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block why" id="why" data-od-id="why-choose">
+  <div class="wrap">
+    <h2>Why? Choose CDS.Journey</h2>
+    <div class="why-grid reveal">
+      <div class="why-cell"><div class="big">100%</div><p>Live interactive classes with Anurag Bhaiya</p></div>
+      <div class="why-cell"><img src="assets/images/cdn.cdsjourney.com/telegram-8011284c67.png" alt="Telegram"><p>Personal Telegram Groups of all batches</p></div>
+      <div class="why-cell"><div class="big">Tests</div><p>For Time management and Accuracy</p></div>
+      <div class="why-cell"><img src="assets/images/cdn.cdsjourney.com/telegram-8011284c67.png" alt="Telegram"><p>Personal Telegram ID of Anurag Bhaiya for Doubt</p></div>
+    </div>
+    <div class="nobooks reveal"><h3>No Books Required!</h3><img src="assets/images/cdn.cdsjourney.com/Mask-20group-0cc8db0cf7.png" alt=""></div>
+  </div>
+</section>
+
+<section class="insta" data-od-id="instagram-band">
+  <div class="wrap insta-grid">
+    <div class="reveal">
+      <h2 lang="hi">हमें इंस्टाग्राम पर फॉलो करें</h2>
+      <p class="sub">Bharat's Most loved defence page</p>
+      <div class="store-row">
+        <a href="#" data-od-id="store-play"><img src="assets/images/cdn.cdsjourney.com/testwale-googleply-9def953fd6.svg" alt="">Google Play</a>
+        <a href="#" data-od-id="store-apple"><img src="assets/images/cdn.cdsjourney.com/apple-logo-29b12c989f.png" alt="">App Store</a>
+        <a href="#" data-od-id="social-instagram"><img src="assets/images/cdn.cdsjourney.com/instagram-9ebeb94443.svg" alt="">Instagram ↗</a>
+        <a href="#" data-od-id="social-youtube"><img src="assets/images/upload.wikimedia.org/YouTube_icon_-282013-2017-29-551fddf4f6.png" alt="">Youtube ↗</a>
+      </div>
+    </div>
+    <div class="insta-art reveal"><img src="assets/images/cdn.cdsjourney.com/app-preview-c6b554e89b.png" alt="CDS Journey Instagram on mobile"></div>
+  </div>
+</section>
+
+<footer data-od-id="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <img class="foot-logo" src="assets/images/cdn.cdsjourney.com/cds-journey-logo-961c021947.svg" alt="cds.journey">
+      <p>Corporate Address: 5/543 sector 5 Gomti Nagar Extension, Lucknow, Uttar Pradesh (226010)</p>
+      <p>Email – <b style="color:#fff">support@cdsjourney.com</b></p>
+      <p>© 2024 CDS Journey: All rights reserved.</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><img src="assets/images/cdn.cdsjourney.com/facebook-c66f15ca5f.svg" alt="Facebook"></a>
+        <a href="#" aria-label="X"><img src="assets/images/cdn.cdsjourney.com/twitter-04f461978b.svg" alt="X"></a>
+        <a href="#" aria-label="Instagram"><img src="assets/images/cdn.cdsjourney.com/instagram2-efe5015cbb.svg" alt="Instagram"></a>
+        <a href="#" aria-label="LinkedIn"><img src="assets/images/cdn.cdsjourney.com/linkedin-0d86ea95b7.svg" alt="LinkedIn"></a>
+        <a href="#" aria-label="YouTube"><img src="assets/images/cdn.cdsjourney.com/youtube-14260faebb.svg" alt="YouTube"></a>
+      </div>
+    </div>
+    <div><h4>Company</h4><ul><li><a href="#">Home</a></li><li><a href="#">About Us</a></li><li><a href="#">Contact Us</a></li></ul></div>
+    <div><h4>Help &amp; Support</h4><ul><li><a href="#">Terms Conditions</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Refund/Cancellation Policy</a></li><li><a href="#">FAQ's</a></li></ul></div>
+  </div>
+  <div class="copy">© Designed by Cds.Journey</div>
+</footer>
+
+<div class="search-ov" id="searchOv" role="dialog" aria-label="Search">
+  <div class="search-box">
+    <input id="searchInput" type="search" placeholder="Search batches (e.g. NDA, CAPF, SSB)…" aria-label="Search batches">
+    <div class="search-results" id="searchResults"></div>
+    <button class="linklike" id="searchClose">Close ✕</button>
+  </div>
+</div>
+
+<div class="overlay" id="loginOv" role="dialog" aria-label="Sign in">
+  <div class="modal" data-od-id="login-modal">
+    <button class="close-x" data-close="loginOv" aria-label="Close">✕</button>
+    <img class="logo" src="assets/images/cdn.cdsjourney.com/cds-logo2-83af84a5b4.png" alt="CDS Journey">
+    <div id="stepEmail">
+      <h2>Welcome</h2><p class="hint">Enter Your Email To Login/Register</p>
+      <label for="email">Email</label><input id="email" type="email" placeholder="you@example.com">
+      <button class="btn-primary" id="sendOtp">Send OTP</button>
+    </div>
+    <div id="stepOtp" hidden>
+      <h2>Verify Your Email</h2><p class="hint">OTP sent to <b id="echoEmail"></b> (demo: any 4+ digits)</p>
+      <label for="otp">OTP</label><input id="otp" inputmode="numeric" placeholder="••••">
+      <label for="nm">Name</label><input id="nm" placeholder="Your name">
+      <label for="ph">Mobile Number</label><input id="ph" inputmode="tel" placeholder="10-digit mobile">
+      <button class="btn-primary" id="verifyOtp">Verify</button>
+      <p class="hint" style="margin:10px 0 0">Didn't receive OTP? <button class="linklike" id="resend">Resend OTP</button></p>
+      <p><button class="linklike" id="backEmail">⇐ Go Back to change the Email ID</button></p>
+    </div>
+  </div>
+</div>
+
+<aside class="drawer" id="cartDrawer" aria-label="Cart" data-od-id="cart-drawer">
+  <header><span>Your Cart (<span id="cartN">0</span>)</span><button class="close-x" data-close="cartDrawer" aria-label="Close cart">✕</button></header>
+  <div class="items" id="cartItems"><p style="color:var(--muted);font-size:14px">Cart is empty. Add a batch to get started.</p></div>
+  <footer><div class="tot"><span>Total</span><span id="cartTotal">₹ 0</span></div><button class="btn-primary" id="checkout" style="width:100%;justify-content:center">Proceed to Checkout</button></footer>
+</aside>
+
+<div class="toast" id="toast" role="status"><img src="assets/images/cdn.cdsjourney.com/cds-logo2-83af84a5b4.png" alt=""><div><b>Item added to cart</b><br><span style="font-size:13px;color:var(--muted)">Product added to cart successfully!</span></div></div>
+
+<button id="toTop" aria-label="Back to top">↑</button>
+
+<script>
+const BATCHES=[
+ {id:'kilo-ota',t:'KILO OTA BATCH (CDS-1 2027)',p:null,img:'assets/images/cdn.cdsjourney.com/CDS_OTA_3_gvfwpCr-9859994a9c.webp',up:true},
+ {id:'india-capf12',t:'INDIA BATCH (PAPER 1+ PAPER 2) CAPF 2027',p:7999,img:'assets/images/cdn.cdsjourney.com/Capf_paper_12-28be03ea21.webp'},
+ {id:'lima-nda',t:'LIMA BATCH (NDA-1 2027)',p:3299,img:'assets/images/cdn.cdsjourney.com/NDA_UZyhLCp-93fd8c598b.webp'},
+ {id:'india-capf2',t:'INDIA BATCH (PAPER 2) CAPF 2027',p:4999,img:'assets/images/cdn.cdsjourney.com/CAPF_paper_2-51978ba803.webp'},
+ {id:'kilo-math',t:'KILO MATH BATCH (CDS-1 2027)',p:1499,img:'assets/images/cdn.cdsjourney.com/CDS_maths_button-f97dab75f6.webp'},
+ {id:'juliet-afcat',t:'JULIET BATCH (AFCAT 1 2027)',p:2540,img:'assets/images/cdn.cdsjourney.com/AFCAT_Button-7dcf3cd5b8.webp'},
+ {id:'ssb-psych',t:'SSB PSYCH BATCH',p:1,img:'assets/images/cdn.cdsjourney.com/SSB_Batch_2-fd9e5ac062.webp'}
+];
+const fmt=n=>'₹ '+n.toLocaleString('en-IN');
+function card(b){
+ const price=b.p==null?'':'<div class="price">'+fmt(b.p)+'</div>';
+ const btn=b.p==null?'<span class="pill">Coming Soon</span>':'<button class="pill" data-add="'+b.id+'">Add to Cart</button>';
+ return '<article class="batch"><img class="bg" loading="lazy" src="'+b.img+'" alt="'+b.t+'"><div class="batch-body"><h3>'+b.t+'</h3>'+price+btn+'</div></article>';
+}
+document.getElementById('railUpcoming').innerHTML=card(BATCHES[0]);
+document.getElementById('railLive').innerHTML=BATCHES.slice(1).map(card).join('');
+document.querySelectorAll('[data-target]').forEach(btn=>btn.addEventListener('click',()=>{
+ const r=document.getElementById(btn.dataset.target);
+ r.scrollBy({left:(btn.classList.contains('next')?1:-1)*Math.min(420,r.clientWidth*.9),behavior:'smooth'});
+}));
+function updateArrows(){document.querySelectorAll('[data-target]').forEach(btn=>{
+ const r=document.getElementById(btn.dataset.target);
+ if(r)btn.style.display=r.scrollWidth>r.clientWidth+4?'':'none';
+});}
+addEventListener('resize',updateArrows);
+/* cart */
+let cart=[];
+const cartItems=document.getElementById('cartItems');
+function renderCart(){
+ document.getElementById('cartCount').textContent=cart.length;
+ document.getElementById('cartN').textContent=cart.length;
+ if(!cart.length){cartItems.innerHTML='<p style="color:var(--muted);font-size:14px">Cart is empty. Add a batch to get started.</p>';}
+ else cartItems.innerHTML=cart.map((b,i)=>'<div class="cart-item"><img src="'+b.img+'" alt=""><div><h4>'+b.t+'</h4><div class="pr">'+fmt(b.p)+'</div></div><button class="rm" data-rm="'+i+'">Remove</button></div>').join('');
+ document.getElementById('cartTotal').textContent=fmt(cart.reduce((s,b)=>s+b.p,0));
+}
+let toastT;
+function toast(){const t=document.getElementById('toast');t.classList.add('show');clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove('show'),2600);}
+document.addEventListener('click',e=>{
+ const add=e.target.closest('[data-add]');
+ if(add){const b=BATCHES.find(x=>x.id===add.dataset.add);if(!cart.find(x=>x.id===b.id))cart.push(b);renderCart();toast();return;}
+ const rm=e.target.closest('[data-rm]');
+ if(rm){cart.splice(+rm.dataset.rm,1);renderCart();return;}
+ if(e.target.closest('[data-view]')){toast();return;}
+});
+document.getElementById('cartBtn').addEventListener('click',()=>document.getElementById('cartDrawer').classList.add('open'));
+document.getElementById('checkout').addEventListener('click',()=>{if(!cart.length){toast();return;}openLogin();});
+/* overlays */
+function openLogin(){document.getElementById('loginOv').classList.add('open');}
+document.getElementById('loginBtn').addEventListener('click',openLogin);
+document.getElementById('mLogin').addEventListener('click',e=>{e.preventDefault();document.getElementById('mobileMenu').classList.remove('open');openLogin();});
+document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>document.getElementById(b.dataset.close).classList.remove('open')));
+document.querySelectorAll('.overlay').forEach(o=>o.addEventListener('click',e=>{if(e.target===o)o.classList.remove('open');}));
+document.getElementById('sendOtp').addEventListener('click',()=>{
+ const em=document.getElementById('email').value.trim();
+ if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)){document.getElementById('email').focus();document.getElementById('email').style.borderColor='var(--danger)';return;}
+ document.getElementById('email').style.borderColor='var(--border)';
+ document.getElementById('echoEmail').textContent=em;
+ document.getElementById('stepEmail').hidden=true;document.getElementById('stepOtp').hidden=false;
+});
+document.getElementById('backEmail').addEventListener('click',()=>{document.getElementById('stepOtp').hidden=true;document.getElementById('stepEmail').hidden=false;});
+document.getElementById('resend').addEventListener('click',toast);
+document.getElementById('verifyOtp').addEventListener('click',()=>{
+ if(document.getElementById('otp').value.trim().length<4){document.getElementById('otp').focus();return;}
+ document.getElementById('loginOv').classList.remove('open');
+ document.getElementById('loginBtn').textContent='Hi, Aspirant';
+ toast();
+});
+/* search */
+const sOv=document.getElementById('searchOv'),sIn=document.getElementById('searchInput'),sR=document.getElementById('searchResults');
+function runSearch(){
+ const q=sIn.value.trim().toLowerCase();
+ const hits=BATCHES.filter(b=>!q||b.t.toLowerCase().includes(q));
+ sR.innerHTML=hits.length?hits.map(b=>'<a href="#live-batches"><span>'+b.t+'</span><b>'+(b.p==null?'Soon':fmt(b.p))+'</b></a>').join(''):'<p style="padding:10px;font-size:14px;color:var(--muted)">No batches match.</p>';
+}
+document.getElementById('searchBtn').addEventListener('click',()=>{sOv.classList.add('open');runSearch();setTimeout(()=>sIn.focus(),50);});
+document.getElementById('searchClose').addEventListener('click',()=>sOv.classList.remove('open'));
+sOv.addEventListener('click',e=>{if(e.target===sOv)sOv.classList.remove('open');});
+sIn.addEventListener('input',runSearch);
+sR.addEventListener('click',()=>sOv.classList.remove('open'));
+/* drop + mobile + header + reveal + top */
+const drop=document.getElementById('mockDrop'),mockToggle=document.getElementById('mockToggle');
+mockToggle.addEventListener('click',e=>{e.preventDefault();drop.classList.toggle('open');mockToggle.setAttribute('aria-expanded',drop.classList.contains('open'));});
+document.addEventListener('click',e=>{if(!drop.contains(e.target)){drop.classList.remove('open');mockToggle.setAttribute('aria-expanded','false');}});
+document.getElementById('menuBtn').addEventListener('click',()=>document.getElementById('mobileMenu').classList.toggle('open'));
+document.querySelectorAll('#mobileMenu a').forEach(a=>a.addEventListener('click',()=>document.getElementById('mobileMenu').classList.remove('open')));
+const hdr=document.getElementById('siteHeader'),toTop=document.getElementById('toTop');
+addEventListener('scroll',()=>{const y=scrollY>10;hdr.classList.toggle('scrolled',y);toTop.classList.toggle('show',scrollY>700);},{passive:true});
+toTop.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.open').forEach(o=>o.classList.remove('open'));});
+renderCart();
+updateArrows();
+</script>
+</body>
+</html>
