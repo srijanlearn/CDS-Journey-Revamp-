@@ -1,0 +1,11 @@
+{
+  "name": "cds-journey-revamp",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Static-HTML redesign of cdsjourney.com, built from real scraped content in ../CDS Journey/content and rendered with a zero-dependency Node build script.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}

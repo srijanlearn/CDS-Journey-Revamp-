@@ -1,11 +1,11 @@
 # Whole-site route coverage
 
-Status: foundation committed; no redesigned page is implemented or tested yet.
+Status: Home implemented in code (`revamp/src/pages/home.mjs`, built via `npm run build` → `revamp/dist/`), not yet browser-tested. All other pages still pending.
 Source: CDS Journey/content/index.json, 23 captured entries. Captured data is not proof of working routes. Preserve URLs or explicitly document redirects. Query variants require separate tests. Historical notes mention a different 25-route crawl; reconcile during discovery.
 
 | Page | Source path | Implementation / QA |
 |---|---|---|
-| Home | / | Pending / Not run |
+| Home | / | Implemented (code review only) / Not run in a browser yet — see `docs/design-notes/home.md` |
 | KILO OTA | /course-detail/kilo-ota-batch-cds-1-2027/ | Pending / Not run |
 | INDIA CAPF P1+P2 | /course-detail/india-batch-p1-p2-capf-2027/ | Pending / Not run |
 | LIMA NDA | /course-detail/lima-batch-nda-1-2027/ | Pending / Not run |
